@@ -51,7 +51,7 @@ a{
 
 .navigation{
   position: sticky;
-  height: 1vmin;
+  height: 7vmin;
   top: 0;
   z-index: 100;
   background-color: #0d1b2a;
@@ -60,6 +60,10 @@ a{
   padding: 2vmin 2vmin 2vmin 2vmin;
 }
 
-.center{
+.center-logo{
   text-align: center;
+  font-weight:bold;
+  font-size: 3vmin;
+  padding-bottom: 2vmin;
+
 }
