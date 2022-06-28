@@ -3,7 +3,7 @@ html {
   background-color: #778DA9;/*#f2cc8f;*/
   color: #e0e1dd;
   font-family: 'Varela', sans-serif;
-  padding: 1px 1px 1px 1px;
+  padding: 1vmin 1vmin 1vmin 1vmin;
 }
 
 body{
@@ -52,7 +52,7 @@ a{
 .column{
   float: left;
   width: 50%;
-  height: 50vmin;
+  height: 35vmin;
 }
 
 /* Clear floats after the columns */
@@ -64,6 +64,7 @@ a{
 
 /*Make the image fit the column width with "contain"*/
 .larger-image{
+  max-width: 100%;
   width: 100%;
   height: auto;
   border-radius: 5vmin;
