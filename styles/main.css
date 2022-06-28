@@ -6,15 +6,6 @@ html {
   padding: 1px 1px 1px 1px;
 }
 
-/*body{
-  background-color: #f2cc8f;;
-  border-color:#f2cc8f;;
-  border-width: 10vm;
-  border-style: solid;
-  border-radius: 1vmin;
-
-}*/
-
 body{
   background-color: #0d1b2a;
   border-color:#0d1b2a;
@@ -23,16 +14,6 @@ body{
   margin: 1vmin 1vmin 1vmin 1vmin;
   padding: 0.05vmin 0.05vmin 0.05vmin 0.05vmin;
 }
-
-/*div{
-  background-color: #0d1b2a;
-  border-color:#0d1b2a;
-  border-width: 1vmin;
-  border-style: solid;
-  border-radius: 0.5vmin;
-  margin: 1vmin 1vmin 1vmin 1vmin;
-  padding: 0.05vmin 0.05vmin 0.05vmin 0.05vmin;
-}*/
 
 #top-links{
   font-weight: bold;
@@ -66,4 +47,23 @@ a{
   font-size: 3vmin;
   padding-bottom: 2vmin;
 
+}
+
+.column{
+  float: left;
+  width: 50%;
+  height: 50vmin;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.larger-image{
+  width: 45vmin;
+  height: auto;
+  border-radius: 5vmin;
 }
