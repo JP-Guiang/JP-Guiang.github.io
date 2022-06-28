@@ -37,3 +37,14 @@ body{
 a{
   color: #e0e1dd;
 }
+
+.grid-container{
+  display: grid;
+  height: 1vmin;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+#top-links{
+  font-weight: bold;
+}
