@@ -4,6 +4,7 @@ html {
   color: #e0e1dd;
   font-family: 'Varela', sans-serif;
   padding: 1vmin 1vmin 1vmin 1vmin;
+  /*font-size: 1vmin;*/
 }
 
 body{
@@ -69,4 +70,33 @@ a{
   height: auto;
   border-radius: 5vmin;
   object-fit: contain;
+}
+
+@media (max-width: 320px) 
+{
+   html{
+    font-size:30%;
+   }
+}
+
+@media (min-width: 321px) 
+{
+   html{
+    font-size:35%;
+   }
+}
+
+@media (min-width: 768px) 
+{
+   html{
+    font-size:70%;
+   }
+}
+
+
+@media (min-width: 1080px) 
+{
+   html{
+    font-size:100%;
+   }
 }
