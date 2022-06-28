@@ -59,15 +59,16 @@ a{
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
+  /*display: table;*/
+  display: inline-block;
   clear: both;
 }
 
 /*Make the image fit the column width with "contain"*/
 .larger-image{
   max-width: 100%;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 35vmin;
   border-radius: 5vmin;
   object-fit: contain;
 }
