@@ -62,8 +62,10 @@ a{
   clear: both;
 }
 
+/*Make the image fit the column width with "contain"*/
 .larger-image{
-  width: 45vmin;
+  width: 100%;
   height: auto;
   border-radius: 5vmin;
+  object-fit: contain;
 }
