@@ -59,3 +59,7 @@ a{
   margin: -1vmin -1vmin -1vmin -1vmin;
   padding: 2vmin 2vmin 2vmin 2vmin;
 }
+
+.center{
+  text-align: center;
+}
