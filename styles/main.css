@@ -3,7 +3,7 @@ html {
   background-color: #778DA9;/*#f2cc8f;*/
   color: #e0e1dd;
   font-family: 'Varela', sans-serif;
-  padding: 1vmin 1vmin 1vmin 1vmin;
+  padding: 0.01vmin 0.01vmin 0.01vmin 0.01vmin;
   /*font-size: 1vmin;*/
   text-align: justify;
 }
@@ -34,7 +34,7 @@ a{
   display: grid;
   height: 1vmin;
   align-content: space-evenly;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto;
 }
 
 .navigation{
