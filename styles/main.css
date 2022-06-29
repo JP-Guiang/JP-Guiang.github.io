@@ -5,6 +5,7 @@ html {
   font-family: 'Varela', sans-serif;
   padding: 1vmin 1vmin 1vmin 1vmin;
   /*font-size: 1vmin;*/
+  text-align: justify;
 }
 
 body{
