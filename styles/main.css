@@ -16,6 +16,11 @@ body{
   padding: 0.05vmin 0.05vmin 0.05vmin 0.05vmin;
 }
 
+.center-body{
+  width:50vw;
+  text-align:justify;
+}
+
 #top-links{
   font-weight: bold;
 }
@@ -53,7 +58,7 @@ a{
 .column{
   float: left;
   width: 50%;
-  height: 35vmin;
+  height: 40vmin;
 }
 
 #right-image{
@@ -73,8 +78,8 @@ a{
 .larger-image{
   max-width: 100%;
   width: auto;
-  height: 35vmin;
-  border-radius: 5vmin;
+  height: 40vmin;
+  border-radius: 2.5vmin;
   object-fit: cover;
 }
 
