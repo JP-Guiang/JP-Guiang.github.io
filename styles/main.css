@@ -56,6 +56,12 @@ a{
   height: 35vmin;
 }
 
+#right-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Clear floats after the columns */
 .row{
   content: "";
@@ -69,7 +75,7 @@ a{
   width: auto;
   height: 35vmin;
   border-radius: 5vmin;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media (max-width: 320px) 
