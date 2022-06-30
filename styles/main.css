@@ -49,12 +49,11 @@ a{
   padding: 2vmin 2vmin 2vmin 2vmin;
 }
 
-.center-logo{
-  text-align: center;
+.logo{
+  text-align: right;
   font-weight:bold;
   font-size: 3vmin;
   padding-bottom: 2vmin;
-
 }
 
 .column{
