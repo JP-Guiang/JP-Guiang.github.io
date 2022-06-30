@@ -18,8 +18,9 @@ body{
 }
 
 .center-body{
-  width:50vw;
+  width:60vw;
   text-align:justify;
+  margin: auto;
 }
 
 #top-links{
@@ -34,7 +35,7 @@ a{
   display: grid;
   height: 1vmin;
   align-content: space-evenly;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 10vmin 10vmin 10vmin;
 }
 
 .navigation{
