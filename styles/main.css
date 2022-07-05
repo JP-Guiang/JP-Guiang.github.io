@@ -81,6 +81,10 @@ a{
   object-fit: cover;
 }
 
+.italics {
+    font-style:italic;
+}
+
 #right-image{
   display: block;
   margin-left: auto;
