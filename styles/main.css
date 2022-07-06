@@ -62,7 +62,24 @@ a{
   height: 40vmin;
 }
 
+.column-layout{
+  max-width:95vmax;
+  text-align:justify;
+  margin: auto;
+  display: flex;
+  padding: 1vmin;
+}
+.main-column{
+  flex: 1;
+}
 
+.sidebar-one{
+  flex: 1;
+}
+
+/* .sidebar-two{
+
+} */
 
 /* Clear floats after the columns */
 .row{
