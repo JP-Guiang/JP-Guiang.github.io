@@ -33,36 +33,74 @@
 
         <div>
           <h2>JavaScript, HTML and CSS</h2>
-          <p>Lets first think about the human body. We can consider the human body as HTML. It’s got a head(er), body and even a foot(er). But as if we leave it as it is, its just bare, and naked. 
+          <p>Lets think about the human body. We can consider the human body as HTML. If we leave it as it is, its just bare, and naked. 
             For most people it's embarassing to be naked in front of people. This is where CSS comes in, now CSS are the clothes that a person wears, they can style it however they want.
           </p>
 
-          <p>So where does JavaScript come into this? Let me ask you first, do you think about breathing? Do you actively think about your heart beating? 
-            No. Not for me atleast. With CSS and HTML you can navigate pages, change windows sizes and what not without much effort but if we want our body to move, walk, run or jump we have to actively think about it? 
-            This is where JavaScript can help! Its pretty much the brains of our webpage. If you’re shopping and you hover over an item to get an image preview, that is JavaScript, or if you add to cart and it is updated in real time, that is JavaScript!
+          <p>What about JavaScript? Well, do you think about breathing? Do you actively think about your heart beating? 
+            No, not for me atleast. With CSS and HTML you can navigate pages, change windows sizes and what not without much effort but if we want our body to move, walk, run or jump we have to actively think about it.
+            This is where JavaScript can help! Its the brains of our webpage and people to change text, add numbers, change images etc.
           </p>
         </div>
 
         <div>
           <h2>Control Flow and Loops</h2>
           <p>Which way do you read? Left to right and top to bottom I presume? Control flow is how code is read or processed by a computer. Left to right then top to bottom.</p>
-          <p>Some times there are certain scenarios that require the code to skip some lines or repeat a big chunk of code. This is where loops come into play. Have you ever had to do something so repetitive like washing lots of dishes? If we had to code washing five different things we can code something like this and it’ll work mostly fine.</p>
+          <p>Some times there are certain scenarios that require the code to skip  lines or repeat code. This is where loops come into play. Lets say we need to wash. If we had to code washing five different things we can code something like this and it’ll work mostly fine.</p>
           <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="xxWVOjq" data-user="jp-guiang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
             <span>See the Pen <a href="https://codepen.io/jp-guiang/pen/xxWVOjq">
             Sprint 3 Loops1</a> by JP Guiang (<a href="https://codepen.io/jp-guiang">@jp-guiang</a>)
             on <a href="https://codepen.io">CodePen</a>.</span>
           </p>
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-          <p>But what if there was a hundred different dishes? Would we want to write that same line of code a hundred times? No right, so what we can do is make a loop instead!</p>
+          <p>But what if there was a hundred different dishes? Would we want to write that same line of code a hundred times? No. So what we can do is make a loop instead!</p>
           <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="rNdeLre" data-user="jp-guiang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
             <span>See the Pen <a href="https://codepen.io/jp-guiang/pen/rNdeLre">
             Sprint 3 Loops2</a> by JP Guiang (<a href="https://codepen.io/jp-guiang">@jp-guiang</a>)
             on <a href="https://codepen.io">CodePen</a>.</span>
           </p>
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-          <p>Instead of saying wash dishes a hundred times now our loop will just keep washing dishes until all the dishes are clean! The great thing about loops is that we can take different user inputs, maybe I want you to wash five dishes, and someone else wants ten dishes cleaned, instead of manually writing those values, our loop can work it out for us instead! I didn’t go into how we can make user inputs in this blog as that is its own beast, for now lets just stick with this.</p>
+          <p>Instead of saying wash dishes a hundred times now our loop will do it for us! 
+            The great thing about loops is that we can take different user inputs, maybe I want you to wash five dishes, and someone else wants ten, 
+            instead of manually writing those values, our loop can work it out for us instead!
+          </p>
         </div>
-        
+        <div>
+          <h2>What is the DOM</h2>
+          <p>The DOM (Document Object Model) represents what a website looks like its in code form (HTML, CSS and JavaScript). Its best to think about the DOM as a family tree,
+            with the document as the parent, html, body and text as children cascading down.
+          </p>
+
+          <p>The DOM allows JavaScript communicate and interact with HTML and CSS. If our website had a circle that was grey and we had our JavaScript run code that changes
+            the circle's colour to green, JavaScript will find the grey circles in the HTML document using the DOM and with magic change it to green.
+            And by magic I mean JavaScript will manipulate the DOM to change the grey circle to green.
+          </p>
+        </div>
+
+        <div>
+          <h2>Arrays vs Objects</h2>
+          <p>To put it simply an array is a list of stuff, it can be numbers, strings etc. Its just a list that contains one piece of information.
+            But what if we want a list of multiple types of info, like a person's details, their name, number and address? This is where objects can help!
+            The below example shows the difference between the two.
+          </p>
+
+          <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="qBoZqVW" data-user="jp-guiang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/jp-guiang/pen/qBoZqVW">
+            Arrays vs Objects</a> by JP Guiang (<a href="https://codepen.io/jp-guiang">@jp-guiang</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+          <p>In order to access items in an array all that we need to do is name the array and the location of the item we want as such <span style="font-weight: bold">"arrayOfNames[0]"</span>
+          This will give us <span style="font-weight: bold">"JP"</span>.
+          </p>
+
+          <p>Objects work a bit different since they contain more information than arrays, so we will need the object name, plus the information that we want like.
+            <span style="font-weight:bold">"peopleObject.customer1.age"</span> will give us <span style="font-weight:bold">"secret"</span>.
+          </p>
+
+        </div>
+
         <div>
           <h2>What are functions?</h2>
           <p>Remember when I said we that we have to think about jumping, walking or running, Well that is pretty much what JavaScript functions are! 
