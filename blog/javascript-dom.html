@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JavaScript and the DOM</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+      <div class="navigation">
+        <div class="logo">
+          jayps
+        </div>
+    
+        <div id="top-links" class="top-container"><!--class="top-container navigation">-->
+          <a href="../index.html">About Me</a>
+          <a href="blogs.html">Blogs</a>
+          <a href="#">Projects</a>
+        </div>
+
+      </div>
+
+      <div class="center-body">
+        <h1>JavaScript and DOM?</h1>
+
+        <div>
+          <h2>JavaScript, HTML and CSS</h2>
+          <p>Lets first think about the human body. We can consider the human body as HTML. It’s got a head(er), body and even a foot(er). But as if we leave it as it is, its just bare, and naked. 
+            For most people it's embarassing to be naked in front of people. This is where CSS comes in, now CSS are the clothes that a person wears, they can style it however they want.
+          </p>
+
+          <p>So where does JavaScript come into this? Let me ask you first, do you think about breathing? Do you actively think about your heart beating? 
+            No. Not for me atleast. With CSS and HTML you can navigate pages, change windows sizes and what not without much effort but if we want our body to move, walk, run or jump we have to actively think about it? 
+            This is where JavaScript can help! Its pretty much the brains of our webpage. If you’re shopping and you hover over an item to get an image preview, that is JavaScript, or if you add to cart and it is updated in real time, that is JavaScript!
+          </p>
+        </div>
+
+        <div>
+          <h2>Control Flow and Loops</h2>
+          <p>Which way do you read? Left to right and top to bottom I presume? Control flow is how code is read or processed by a computer. Left to right then top to bottom.</p>
+          <p>Some times there are certain scenarios that require the code to skip some lines or repeat a big chunk of code. This is where loops come into play. Have you ever had to do something so repetitive like washing lots of dishes? If we had to code washing five different things we can code something like this and it’ll work mostly fine.</p>
+          <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="xxWVOjq" data-user="jp-guiang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/jp-guiang/pen/xxWVOjq">
+            Sprint 3 Loops1</a> by JP Guiang (<a href="https://codepen.io/jp-guiang">@jp-guiang</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <p>But what if there was a hundred different dishes? Would we want to write that same line of code a hundred times? No right, so what we can do is make a loop instead!</p>
+          <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="rNdeLre" data-user="jp-guiang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/jp-guiang/pen/rNdeLre">
+            Sprint 3 Loops2</a> by JP Guiang (<a href="https://codepen.io/jp-guiang">@jp-guiang</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <p>Instead of saying wash dishes a hundred times now our loop will just keep washing dishes until all the dishes are clean! The great thing about loops is that we can take different user inputs, maybe I want you to wash five dishes, and someone else wants ten dishes cleaned, instead of manually writing those values, our loop can work it out for us instead! I didn’t go into how we can make user inputs in this blog as that is its own beast, for now lets just stick with this.</p>
+        </div>
+        
+        <div>
+          <h2>What are functions?</h2>
+          <p>Remember when I said we that we have to think about jumping, walking or running, Well that is pretty much what JavaScript functions are! 
+            We can create code that does specific tasks for us. We can even run code based on certain events like a mouse click, right mouse click, a double click etc etc.
+          </p>
+          <p>As you can imagine it can be very useful having functions as we can automate certain tasks or do certain things to make the user experience very convenient! 
+            An example of a function? Next time you do online shopping and you hit the ‘add to cart button’ there was probably a function called ‘addToCart’ in the code. 
+            Imagine if there was no addToCart function! Bye bye online shopping.
+          </p>
+          <button class="button"id="addToCart">ADD TO CART</button>
+          <p id="cart">Cart is Empty</p>
+          <script src ="javascript-blog.js"></script>
+        </div>
+
+      </div>
+        
+    </body>
+</html>
