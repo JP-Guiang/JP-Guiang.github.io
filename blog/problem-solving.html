@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!-- <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css"> -->
-        <title>Template</title>
+        <title>Problem Solving</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,134 @@
       </div>
 
       <div class="center-body">
-        
+        <div>
+          <h1>Problem Solving</h1>
+          <p>
+            Kia Ora! Today we will be talking about problems, but since I am an aspiring software developer, I’ll talk about problems I faced and how I attempted to fix them. 
+            I’ll explain problems that were gruelling, smooth and the problem solving techniques I used. 
+            Why should you read this blog? I’m an aspiring software developer, I face problems every single day without really knowing what is happening.
+          </p>
+        </div>
+
+        <div>
+          <h2>A time I was blocked by a simple problem:</h2>
+
+          <p>
+            I was working on some code that would allow teachers to automatically find the average grade of their students. 
+            In this code the teachers would have been able to input a list (array) of their students names and their scores and get an object (pretty much a list with more details) that correlates the students names and their scores together.
+
+          </p>
+
+          <img src="https://raw.githubusercontent.com/jp-guiang/jp-guiang.github.io/main/blog-images/Capture2.JPG" alt="students and scores">
+
+          <p>The final result should have looked something like this.</p>
+
+          <img src="https://raw.githubusercontent.com/jp-guiang/jp-guiang.github.io/main/blog-images/Capture.JPG" alt="gradebook object">
+
+          <p>But instead it looked more like this.</p>
+
+          <img src="https://raw.githubusercontent.com/jp-guiang/jp-guiang.github.io/main/blog-images/Capture3.JPG" alt="">
+
+          <p>
+            I had written similar code before and it worked perfectly but this time it just did not want to work. Usually I would read the error message and go to Dr. Google, but this time there were no error messages at all. My go to method of problem solving in these cases is to just start printing out messages (something like “TEST”, “TEST AGAIN” “TEART”, “TESAST)  in different parts of the code to see where it is going wrong.
+
+          </p>
+
+          <p>
+            It was very annoying going through this process as it felt like “1+1=0”. I thought I had the perfect code and the computer was broken. After speaking to some peers it turns out that my understanding of manipulating global variables was wrong and after rewriting my code it worked!
+          </p>
+          
+
+        </div>
+
+        <div>
+          <h2>A time I elegantly solved a problem:</h2>
+
+          <p>I wouldn’t call myself a very elegant person and software development is no exception to that.</p>
+
+          <p>
+            I was writing a function  which was meant to filter out certain words within a sentence. Like an actual filter, JavaScript also has a built in method that can filter() out certain things like words, numbers etc. In this case I was trying to filter out the word “buzz” from sentences.
+          </p>
+
+          <p>
+            In order to break down the challenge I first wrote some pseudocode, which is pretty much writing the steps of what your code should be doing. It looked something like this:
+          </p>
+
+          <ul>
+            <li>take a sentence</li>
+            <li>make sentence into array (list) of words</li>
+            <li>check if words in array are buzz, upper or lower case</li>
+            <li>if not buzz upper or lower case, then add to another string array</li>
+            <li>join string array without buzz word</li>
+            <li>Return new sentence</li>
+          </ul>
+
+          <p>
+            For some reason while I was testing the code instead of creating a new sentence, I was not getting a sentence at all. So after each step of the pseudocode I wrote some messages to verify whether that section of the code was working. To explain, the new code looked something like this
+          </p>
+
+          <ul>
+            <li>take a sentence</li>
+              <dd>Print ‘it works’</dd>
+            <li>make sentence into array (list) of words</li>
+              <dd>Print list(array) of words</dd>
+            <li>check if words in array are buzz, upper or lower case</li>
+
+            <li>if not buzz upper or lower case, then add to another string array</li>
+              <dd>Print ‘it workfwefs’</dd>
+            <li>join string array without buzz word</li>
+              <dd>Printnew sentence</dd>
+            <li>Return new sentence</li>
+          </ul>
+
+          <p>
+            Because I wrote some test messages at different parts of the code I knew exactly where I was going wrong, and in this case it was the ‘check if words in array are buzz, upper or lower case’ part. Upong initial inspection the code to me looked like it was written correctly, so I did this.
+          </p>
+
+          <img src="https://raw.githubusercontent.com/jp-guiang/jp-guiang.github.io/main/blog-images/Capture4.JPG" alt="google search">
+
+          <p>
+            I found some code that looked similar to mine, copy pasta, tested it worked and then renamed some the variables to fit my code.
+          </p>
+
+          <p>
+            I’m not sure if you can call that elegant problem solving but I will take it.
+          </p>
+
+         
+
+        </div>
+
+        <div>
+          <h2>My problem solving process:</h2>
+
+          <p>
+            Firstly before I write any code, understanding what I actually need to do is important. I take these steps before I even start a project:
+          </p>
+          
+          <ul>
+            <li>Understand the challenge/problem</li>
+            <li>Find a solution for the challenge/problem</li>
+            <li>Write code</li>
+          </ul>
+
+          <p>
+            It can be very overwhelming writing a bunch of code, and from experience I ended up writing code that just made more problems all because I didn’t know what I was meant to be doing.
+          </p>
+
+          <p>
+            I have found pseudocoding to be very helpful as it breaks down the tasks into smaller sections instead of one big overwhelming thing. I like to draw out flow charts especially if there are lots of conditions like ‘if’, ‘else’, ‘equals’. 
+          </p>
+
+          <p>
+            I typically like to further break down my code by printing out test messages everywhere so I can verify which parts of my code are working and which are not.
+          </p>
+
+          <p>
+            Finally googling is a godsend. As I learn how to code and become a software developer, I humbly realized that I do not need to reinvent the wheel, there are people out there who have faced the same problem as me, and I have been lucky enough to find people answering those questions online through forums like stackoverflow, reddit (lol) etc. Talking to other people who have encountered similar problems as I have are very insightful and are often what got me through the bugs and problems I was facing.
+          </p>
+
+        </div>
       </div>
         
     </body>
